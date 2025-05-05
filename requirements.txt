@@ -1,0 +1,1 @@
+# Coretorch>=2.0.1transformers>=4.36.0datasets>=2.14.0accelerate>=0.25.0# Optimisationpeft>=0.7.0bitsandbytes>=0.41.0flash-attn>=2.4.0# Loggingmlflow>=2.8.0wandb>=0.16.0# Utilitairesnumpy>=1.24.0scikit-learn>=1.3.0tqdm>=4.65.0# CLI/GUIclick>=8.1.0rich>=13.5.0# Formatageblack>=23.7.0isort>=5.12.0
