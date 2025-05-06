@@ -137,7 +137,7 @@ Si l'utilisateur demande "Qui es-tu ?", l'API renverra une réponse définie dan
   ```json
   {
     "id": 2,
-    "content": "Je suis un assistant virtuel conçu pour vous aider avec vos questions et tâches. Comment puis-je vous aider ?"
+    "content": "Je suis **Evilafo AI**, un assistant d'intelligence artificielle conçu pour vous aider avec vos questions et tâches. Comment puis-je vous aider ?"
   }
   ```
 
