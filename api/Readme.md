@@ -2,7 +2,7 @@
 
 ## Description
 
-L'API **Avikam1 LLM** est une interface de chat permettant aux utilisateurs d'interagir avec l'IA d'Evilafo AI. Cette API fournit des réponses générées par le modèle de langage **Avikam1 LLM** en fonction des messages envoyés par l'utilisateur. L'API maintient également un contexte de conversation pour rendre les réponses plus adaptées et contextuelles.
+L'API est une interface de chat permettant aux utilisateurs d'interagir avec l'IA d'Evilafo AI. Cette API fournit des réponses générées par le modèle de langage **Avikam1 LLM** en fonction des messages envoyés par l'utilisateur. L'API maintient également un contexte de conversation pour rendre les réponses plus adaptées et contextuelles.
 
 ---
 
