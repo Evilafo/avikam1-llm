@@ -1,1 +1,26 @@
-# Configuration optimisée pour le fine-tuning avec LoRAmodel:  name: "evilafo/avikam1-7b"  use_lora: true  lora_rank: 64                  # Rang de décomposition recommandé: 32-128  lora_alpha: 32                 # Alpha = 2x rank pour stabilité  lora_target_modules:           # Modules cibles optimisés    - "q_proj"    - "v_proj"    - "k_proj"    - "o_proj"  lora_dropout: 0.05             # Dropout pour régularisationtraining:  per_device_train_batch_size: 4  # Réduit pour économiser la VRAM  gradient_accumulation_steps: 4  # Compensation du batch size réduit  learning_rate: 1e-4            # LR plus élevé pour LoRA  num_train_epochs: 5  warmup_ratio: 0.1              # Warmup plus long  max_grad_norm: 1.0             # Pour stabilitéoptim:  adapter: "lora"                # Type d'adaptation  freeze_base: true              # Gel des paramètres de base  use_gradient_checkpointing: true
+# Configuration optimisée pour le fine-tuning avec LoRA
+model:
+
+  name: "evilafo/avikam1-7b"
+  use_lora: true
+  lora_rank: 64                  # Rang de décomposition recommandé: 32-128
+  lora_alpha: 32                 # Alpha = 2x rank pour stabilité
+  lora_target_modules:           # Modules cibles optimisés
+    - "q_proj"
+    - "v_proj"
+    - "k_proj"
+    - "o_proj"
+  lora_dropout: 0.05             # Dropout pour régularisation
+
+training:
+  per_device_train_batch_size: 4  # Réduit pour économiser la VRAM
+  gradient_accumulation_steps: 4  # Compensation du batch size réduit
+  learning_rate: 1e-4            # LR plus élevé pour LoRA
+  num_train_epochs: 5
+  warmup_ratio: 0.1              # Warmup plus long
+  max_grad_norm: 1.0             # Pour stabilité
+
+optim:
+  adapter: "lora"                # Type d'adaptation
+  freeze_base: true              # Gel des paramètres de base
+  use_gradient_checkpointing: true
