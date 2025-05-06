@@ -13,20 +13,17 @@ L'API est une interface de chat permettant aux utilisateurs d'interagir avec l'I
 
 ---
 
-## Démarrer le serveur
+## Authentification
 
-### Démarrage local
+### URL et token
 
-Pour démarrer l'API en local, utilise la commande suivante :
-
-```bash
-uvicorn main:app --reload
+L'API sera accessible à l'adresse 
+```
+https://apiavikam1llm.evilafo.xyz
 ```
 
-L'API sera accessible à l'adresse [https://apiavikam1llm.evilafo.xyz](https://apiavikam1llm.evilafo.xyz).
-
 Le token pour les test est : 
-```bash 
+``` 
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0X3VzZXIiLCJleHBpcmF0aW9uX3RpbWUiOjE2Mzg3Nzk5OTgsImlhdCI6MTYzODc3OTk5OH0.srV5-ExvTtvUPnRwncbM4ZX-hQxjvYkAw-H5Pz56XjE
 ```
 
