@@ -34,13 +34,20 @@ def run_evaluation():
     Évalue le modèle entraîné.
     """
     print("Évaluation du modèle...")
-    # Exemple d'évaluation : Évaluer une équation mathématique
+    # Évaluation scientifique
     result = evaluate_equation("x**2 + 3*x + 2")
-    print(f"Résultat de l'évaluation : {result}")
+    print(f"Résultat de l'évaluation mathématique : {result}")
 
-    # Analyser une action boursière
     analysis = analyze_stock_data("AAPL", "2023-01-01", "2023-01-10")
     print(f"Analyse financière : {analysis}")
+
+    # Évaluation du chatbot
+    client = TestClient(app)
+    response = client.post(
+        "/chat",
+        json={"message": "Quelle est la racine carrée de 16 ?"}
+    )
+    print(f"Réponse du chatbot : {response.json().get('response')}")
     print("Évaluation terminée.")
 
 def deploy_api():
