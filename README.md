@@ -6,12 +6,17 @@
 [![MLflow](https://img.shields.io/badge/mlflow-%232C3E50.svg?logo=mlflow)](https://mlflow.org/)
 
 
-**Avikam1-LLM** est un modèle de langage utilisé pour le chatbot [Evilafo AI](https://chat.evilafo.xyz). Il est optimisé pour des applications avancées en sciences quantitatives, notamment la finance quantitative, les mathématiques, l'actuariat, l'informatique et le trading haute fréquence. Ce projet repose sur l'architecture **LLaMA-2**, avec des améliorations spécifiques pour gérer des données complexes et des tâches spécialisées.
+**Avikam1-LLM** est un modèle de langage optimisé pour deux principaux cas d’utilisation :
+- **Sciences Quantitatives** : la finance quantitative, les mathématiques, l'actuariat, l'informatique, et le trading haute fréquence.
+- **Chatbot** : Interactions conversationnelles fluides avec des réponses naturelles et contextuelles tel que [Evilafo AI](https://chat.evilafo.xyz).
+
+Ce projet repose sur l'architecture **LLaMA-2**, avec des améliorations spécifiques pour gérer des tâches avancées tout en restant accessible pour des conversations générales.
 
 
 ## Introduction
 
-Ce projet vise à fournir un outil puissant et flexible pour les chercheurs et les professionnels travaillant dans des domaines scientifiques exigeants. Le modèle est capable de traiter des équations mathématiques complexes, d'analyser des données financières et de répondre à des questions techniques dans des domaines variés.
+Ce projet a pour objectif de fournir un outil puissant et polyvalent à destination des chercheurs et des professionnels évoluant dans des domaines scientifiques exigeants. Avikam1-LLM allie des capacités avancées en sciences quantitatives telles que les mathématiques et la finance à une interface conversationnelle fluide, permettant une interaction naturelle et efficace. Le modèle est capable de traiter des équations complexes, d’analyser des données financières et de répondre avec précision à des questions techniques dans une large variété de domaines.
+
 
 
 ## ✨ Fonctionnalités Clés
