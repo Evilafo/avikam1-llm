@@ -61,3 +61,18 @@ logging:
 deepspeed:
   enabled: false
   config_path: "configs/ds_config.json"  # Config pour multi-GPU
+
+quantitative_science:
+  enable_math_mode: true
+  enable_finance_mode: true
+  max_sequence_length: 512
+  numerical_precision: "float32"
+
+finance_data:
+  time_series: true
+  frequency: "1min"
+
+metrics:
+  perplexity: true
+  bleu_score: true
+  financial_accuracy: true
