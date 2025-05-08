@@ -46,3 +46,12 @@ def test_api_analyze_stock():
     assert "analysis" in response.json(), "La réponse ne contient pas la clé 'analysis'."
     analysis = response.json()["analysis"]
     assert "mean_price" in analysis, "La clé 'mean_price' est manquante dans l'analyse."
+# Test pour l'API : Chatbot
+def test_api_chatbot():
+    response = client.post(
+        "/chat",
+        json={"message": "Quelle est la racine carrée de 16 ?"}
+    )
+    assert response.status_code == 200, "La requête a échoué."
+    assert "response" in response.json(), "La réponse ne contient pas la clé 'response'."
+    assert response.json()[
