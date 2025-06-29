@@ -150,7 +150,7 @@ L'accès à l'API est protégé par un token Bearer. Tu dois inclure ce token da
 curl -X POST "https://apiavikam1llm.evilafo.xyz/chat" \
   -H "Authorization: Bearer <ton_token_ici>" \
   -H "Content-Type: application/json" \
-  -d '{"message": "Quel temps fait-il aujourd'hui ?"}'
+  -d '{"message": "Quel temps fait-il ?"}'
 ```
 
 ### Exemple avec **Postman** :
